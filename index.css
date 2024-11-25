@@ -1,0 +1,91 @@
+/* Layout for images in a row */
+.card {
+    display: inline-block; /* Allows cards to align in a row */
+    margin-left:  4rem; /* Adds spacing between cards */
+    text-align: center; /* Centers text in the card */
+    vertical-align: top; /* Ensures cards align properly in a row */
+    margin-top: 20px;
+  }
+  
+  /* Image styling */
+  .card-img-top {
+    height: 200px; /* Adjust height for uniformity */
+    object-fit: cover; /* Maintains aspect ratio while filling the area */
+    width: 100%; /* Ensures the image spans the card's width */
+  }
+  
+  /* Centering content inside the card body */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Card title and text spacing */
+  .card-title {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    margin-bottom: 1rem;
+  }
+  
+  /* Button styling */
+  .card-body .btn {
+    margin-top: 0.5rem;
+  }
+  .header{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px;
+    
+    }
+    .logo-row{
+        width: 250px;
+        margin: 0 auto;
+    
+    }
+    .logo{
+        width: 100%;
+        height: 150px;
+        text-align: center;
+    }
+
+    h1 {
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        text-align: center;
+    
+    }
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        font-weight: bold;
+       
+    }
+    h2{
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 2rem;
+    }
+    input[type="text"] {
+        padding: 10px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+  .btn {
+    background-color: blueviolet;
+
+  }
+
+  
+  
+  
+  
